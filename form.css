@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+:root {
+  /* Brand Colours */
+  --primary-color: #0B1F3A;
+  --secondary-color: #F47721;
+  --accent-color: #FF9A45;
+
+  /* Background Colours */
+  --background-color: #FFFFFF;
+  --section-background: #F5F6F8;
+  --card-background: #FFFFFF;
+
+  /* Text Colours */
+  --heading-color: #0B1F3A;
+  --text-color: #172033;
+  --muted-text: #64748B;
+
+  /* Borders */
+  --border-color: #E5E7EB;
+
+  /* Buttons */
+  --button-background: #F47721;
+  --button-text: #FFFFFF;
+}
+
+
+form{
+    width:400px;
+    border:1px solid black;
+     padding:20px;
+     border-radius:20px;
+     background-color:var(--background-color);
+     margin: auto;
+     margin-top:50px;
+}
+
+body{
+    min-height:10px;
+    background-color:var(--border-color);
+}
+h3{
+    font-family:sans-serif;
+    font-size:50px;
+    color:var(--heading-color);
+    text-transform:uppercase;
+    text-align:center;
+}
+
+label,input{
+    font-family:sans-serif;
+    display:block;
+    margin-top:10px;
+    text-transform: capitalize;
+}
+
+input{
+   padding:15px;
+   width:350px;
+   border-radius:10px;
+   /* outline-color:var(--border-color); */
+   border:1px solid black;
+}
+
+button{
+   padding:15px;
+   width:350px; 
+   color:var(--button-text);
+   font-family: sans-serif;
+    border-radius:10px;
+   text-transform:uppercase;
+   background-color:var(--button-background);
+}
+
+button:hover{
+    background-color:var(--border-color);
+    color:var(--button-background);
+    font-weight:bold;
+    transition:2.5s;
+    cursor:cell;
+}
+span{
+    color:var(--accent-color);
+}
+
+select{
+    padding:10px;
+    width:350px;
+    margin-top:10px;
+    border-radius:10px;
+    font-family: sans-serif;
+}
+
+textarea{
+    padding:30px;
+    resize: none;
+    font-family: sans-serif;
+    border-radius:10px;
+    margin-top:10px;
+   width:350px; 
+}
